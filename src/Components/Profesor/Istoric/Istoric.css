@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.containerIstoric
+{
+    background-color:#071D2B;
+    text-align: center;
+    color:rgb(219, 166, 66);
+    font-family: Ubuntu;
+    padding:5px 1px 2px 0;
+}
+.containerHeader .headerTest, .containerHeader .headerData, .containerHeader .headerMedie
+{
+    display: inline-block;
+    width: 33%;
+}
+.containerHeader p
+{
+    margin:0 0 15px 0;
+    font-size:150%;
+    cursor: pointer;
+}
+.inregistrare
+{
+    background-color:rgb(240, 198, 120);
+    margin-bottom: 1px;
+}
+.inregistrare:hover
+{
+    background-color: rgb(219, 166, 66);
+}
+.inregistrareTest, .inregistrareMedie, .inregistrareData
+{
+    display: inline-block;
+    color: black;
+    width:33%;
+}

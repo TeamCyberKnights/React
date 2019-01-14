@@ -1,0 +1,186 @@
+.containerTest
+{
+    background-color:#071D2B;
+    width:100%;
+    text-align: center;
+    padding:5px;
+}
+.adaugaTest
+{
+    background-color:#FFC966;
+    padding:10px;
+}
+.adaugaTest>p
+{
+    font-size: 150%;
+    text-align: center;
+    margin:0 0 20px 0;
+}
+.adaugaTest input[type="radio"]
+{
+    margin:20px 2px;
+}
+.adaugaTest label
+{
+    margin:10px;
+    font-size:110%;
+}
+.numeTest
+{
+    display: block;
+    width:350px;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    margin:0 auto;  
+    font-size:125%;
+    padding:3px 5px;
+}
+
+.descriereTest
+{
+    display: block;
+    width:350px;
+    height:60px;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    margin:10px auto 0 auto;
+    font-size: 105%;  
+    padding:5px;
+    resize: none;
+}
+
+.adaugaTestButton
+{
+    background:none;
+    border:none;
+    padding:10px;
+    background-color: #071D2B;
+    color:white;
+    height:50px;
+    width:200px;
+    border-radius: 3px;
+    font-size: 125%;
+    cursor: pointer;
+    display: block;
+    margin:10px auto 0 auto;
+}
+
+.durataTest
+{
+    margin-left:15px;
+    width:228px;
+    font-size:100%;
+    border:none;
+    background-color:white;
+    padding:3px 5px;
+    margin-bottom: 10px;
+}
+.selectTest
+{
+    width:350px;
+    padding:5px 2px;
+    margin-top:10px;
+}
+.headerTeste
+{
+    border-top: 5px #FFC966 solid;
+    border-bottom: 5px #FFC966 solid;
+    background-color: rgb(14, 44, 63);
+    margin:0;
+    padding:10px 0;
+    color:white;
+    font-size:125%;
+}
+/* --------------------------------------TESTE MELE-------------------------- */
+.testeleMele
+{
+    margin-top:80px;
+}
+.testePublice
+{
+    margin-top: 80px;
+}
+.Test
+{
+    background-color:rgb(250, 208, 129);
+    padding:2px;
+    margin:10px 0;
+    cursor: pointer;
+}
+.Test:hover
+{
+    background-color:rgb(250, 185, 65);
+}
+.Test p
+{
+    margin:0;
+}
+.Test>.testDenumire
+{
+    font-size:135%;
+    margin:2px 0;
+    font-weight: bolder;
+}
+.Test>.testProfesor
+{
+    font-size:85%;
+    font-style: italic;
+    color:rgb(122, 118, 118);
+    margin:2px 0;
+}
+.Test>.testDescriere
+{
+    font-size: 100%;
+    margin:2px 0;
+    font-style: italic;
+    color:rgb(77, 74, 74);
+}
+
+.Test>.testMaterie
+{
+    font-size: 125%;
+    margin:10px 0 2px 0;
+    font-weight: bold;
+}
+.Test>.testTip
+{
+    font-size:100%;
+    margin:5px 0;
+}
+.Test>.testDurata
+{
+    font-size:110%;
+    margin:2px 0;
+}
+.Test>button
+{
+    font-size: 100%;
+    background-color: rgb(6, 49, 75);
+    margin:5px 0;
+    border:none;
+    padding:8px 12px;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Test>button:hover
+{
+    background-color: rgb(14, 44, 63);
+    color:rgb(201, 147, 47);
+}
+
+@media screen and (max-width:750px)
+{
+    .numeTest, .descriereTest,.selectTest
+    {
+        width:90%;
+    }
+    .durataTest 
+    {
+        width:90%;
+        margin-top:7px;
+    }
+}

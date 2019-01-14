@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.containerSignUp
+{
+    text-align: center;
+    padding-bottom: 50px;
+    /* background-color: #6882A3; */
+    background-color: #071D2B;
+}
+
+.containerSignUp p
+{
+    padding-top:15px;
+    font-size:175%;
+    font-family: Ubuntu;
+    color:white;
+}
+.containerSignUp input[type="text"], .containerSignUp input[type="password"], .containerSignUp button
+{
+    box-sizing: border-box;
+    display: block;
+    width:70%;
+    margin: 15px auto 0 auto;
+    padding:8px;
+    font-size:125%;
+    font-family: Ubuntu;
+}
+.containerSignUp button
+{
+    border:none;
+    background:none;
+    background-color: #FFC966;
+}
+@media screen and (max-width:1000px)
+{
+    .containerSignUp p
+    {
+        font-size: 150%;
+    }
+    .containerSignUp input[type="text"], .containerSignUp input[type="password"], .containerSignUp button
+    {
+        padding:5px;
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    .containerSignUp input[type="text"], .containerSignUp input[type="password"], .containerSignUp button
+    {
+        font-size:90%;
+    }
+    .containerSignUp p
+    {
+    padding-top:15px;
+    font-size:125%;
+    }
+}
+
+.containerSignUp .eroriAfisare
+{
+    width:70%;
+    margin:0 auto;
+    padding:0;
+    font-size:14px;
+    color:red;
+    text-align: left
+}

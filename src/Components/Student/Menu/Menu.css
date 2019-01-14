@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.butonStudent
+{
+    background:none;
+    border:none;
+    padding:4px 7px;
+    margin: 0 5px;
+    background-color:#FFC966;
+    font-family: Ubuntu;
+    font-size:125%;
+    border-radius: 2px;
+}
+
+.butonStudent:hover
+{
+    background-color: rgb(219, 166, 66);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1000px)
+{
+    .butonStudent
+    {
+        font-size:100%;
+        padding:3px 6px;
+    }
+}
+
+@media screen and (max-width:750px)
+{
+    .butonStudent
+    {
+        display: block;
+        width:70%;
+        margin: 5px auto 0 auto;
+    }
+}

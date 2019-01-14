@@ -1,0 +1,107 @@
+.containerTest
+{
+    background-color:#071D2B;
+    width:100%;
+    text-align: center;
+    padding:5px;
+}
+.containerTest>p
+{
+    font-size: 200%;
+    margin:10px 0 15px 0;
+    color:white;
+}
+.containerTest>input[type="text"]
+{
+    width:60%;
+    font-size: 125%;
+    padding:5px 3px;
+    margin:10px 0 15px 0;
+}
+.Test
+{
+    background-color:rgb(250, 208, 129);
+    padding:2px;
+    margin:10px 0;
+    cursor: pointer;
+}
+.Test:hover
+{
+    background-color:rgb(250, 185, 65);
+}
+.Test>.testDenumire
+{
+    font-size:135%;
+    margin:2px 0;
+    font-weight: bolder;
+}
+.Test>.testProfesor
+{
+    font-size:85%;
+    font-style: italic;
+    color:rgb(122, 118, 118);
+    margin:2px 0;
+}
+.Test>.testDescriere
+{
+    font-size: 100%;
+    margin:2px 0;
+    font-style: italic;
+    color:rgb(77, 74, 74);
+}
+
+.Test>.testMaterie
+{
+    font-size: 125%;
+    margin:10px 0 2px 0;
+    font-weight: bold;
+}
+.Test>.testTip
+{
+    font-size:100%;
+    margin:5px 0;
+}
+.Test>.testDurata
+{
+    font-size:110%;
+    margin:2px 0;
+}
+.Test>button
+{
+    font-size: 100%;
+    background-color: rgb(6, 49, 75);
+    margin:5px 0;
+    border:none;
+    padding:8px 12px;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Test>button:hover
+{
+    background-color: rgb(14, 44, 63);
+    color:rgb(201, 147, 47);
+}
+
+@media screen and (max-width:750px)
+{
+    .numeTest, .descriereTest,.selectTest
+    {
+        width:90%;
+    }
+    .durataTest 
+    {
+        width:90%;
+        margin-top:7px;
+    }
+    .containerTest>p
+    {
+        font-size:125%;
+    }
+    .containerTest>input[type="text"]
+    {
+        width:70%;
+        font-size:100%;
+    }
+}

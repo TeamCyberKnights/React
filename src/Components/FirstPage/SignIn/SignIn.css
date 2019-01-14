@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.utilizator, .parola
+{
+    padding:2px;
+    font-size:90%;
+    margin: 0 5px;
+    font-family: Ubuntu;
+}
+.logare
+{
+    padding:4px 15px;
+    font-size:90%;
+    border:none;
+    background:none;
+    background-color: #FFC966;
+    margin: 0 5px;
+    color:#071D2B;
+    font-family: Ubuntu;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px)
+{
+    .utilizator, .parola, .logare
+        {
+        font-size:80%;
+        margin: 0 2px;
+    }
+}
+
+@media screen and (max-width:750px)
+{
+    .utilizator, .parola, .logare
+    {
+        border-width: 0px;
+        display: block;
+        width:70%;
+        margin:0 auto 3px auto;
+        padding:5px;
+        box-sizing: border-box;
+        font-size:115%;
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    .utilizator, .parola, .logare
+    {
+        font-size:85%;
+        padding: 3px;
+        margin-bottom: 6px; 
+    }
+}

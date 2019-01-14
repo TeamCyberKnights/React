@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.containerEmail
+{
+    background-color:#071D2B;
+    padding:20px 10px 10px 10px;
+}
+.containerEmail>p
+{
+    color:white;
+    margin:0 0 30px 0;
+    text-align: center;
+    font-size: 160%;
+    font-family: Ubuntu;
+}
+.destinatar
+{
+    display: block; 
+    margin:0 auto 20px auto;
+    font-size:105%;
+    padding:3px 0;
+    width:60%;
+    font-family: Ubuntu;
+}
+
+.titlu
+{
+    display: block;
+    margin:0 auto 20px auto;
+    font-size:105%;
+    padding:3px 1%;
+    width:58%;
+    font-family: Ubuntu;
+}
+
+.materie
+{
+    display:block;
+    margin:0 auto 20px auto;
+    font-size:105%;
+    padding:3px 0;
+    width:60%;
+    font-family: Ubuntu;
+}
+.containerEmail>textarea
+{
+    display: block;
+    margin:0 auto 20px auto;
+    font-size:105%;
+    width:58%;
+    height:200px;
+    font-family: Ubuntu;
+    padding:5px 1%;
+    resize: none;
+}
+.containerEmail>button
+{
+    display: block;
+    margin:0 auto 10px auto;
+    width: 25%;
+    height:40px;
+    font-size:125%;
+    border:none;
+    font-family: Ubuntu;
+    background-color:#FFC966;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.containerEmail>button:hover
+{
+    background-color:rgb(209, 156, 56);
+}
+
+@media screen and (max-width:500px)
+{   
+    .containerEmail>p
+    {
+        font-size:125%;
+        width:auto;
+    }
+    .destinatar
+    {
+        font-size: 80%;
+    }
+    .titlu
+    {
+        font-size: 80%;
+    }
+    .materie
+    {
+        font-size:80%;
+    }
+    .containerEmail>textarea
+    {
+        font-size: 80%;
+    }
+    .containerEmail>button
+    {
+        font-size:100%;
+        width:60%;
+    }
+}

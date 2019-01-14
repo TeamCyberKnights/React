@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.startTest
+{
+    padding-top:50px;
+    text-align: center;
+}
+
+.start{
+
+    height:250px;
+    width:250px;
+    border:none;
+    background:none;
+    background-color: #FFC966;
+    border: 18px solid rgb(227,71,0);
+    border-radius: 50%;
+    font-size:250%;
+    font-family: Ubuntu;
+    display: block;
+    margin:0 auto;
+}
+
+.start:hover
+{
+    background-color: rgb(219, 166, 66);
+    cursor: pointer;
+}
+
+.selectTest
+{
+    display: block;
+    margin:0 auto;
+    margin-top:50px;
+    width:250px;
+    padding:6px;
+    font-size:110%;
+    border:none;
+    background:none;
+    /* background-color: rgb(227,71,0);; */
+    background-color: #071D2B;
+    color:white;
+}
